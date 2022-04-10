@@ -1,2 +1,6 @@
-# Tasty
-![Pantalla muestra](https://github.com/MariaDelCarmenHernandezDiaz/Asignacion-de-horarios-y-materias/blob/main/Capturas/1.PNG?raw=true)
+# Tasty :cake:
+
+> Así es como luce esta aplicación web progresiva.
+> 
+![Pantalla muestra](https://raw.githubusercontent.com/CarmenKaplanB/Tasty/main/capturas/TastyIn.png)
+![Pantalla muestra](https://raw.githubusercontent.com/CarmenKaplanB/Tasty/main/capturas/TastyI.png)
