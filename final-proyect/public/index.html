@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- ETIQUETAS REQUERIDAS -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+  <title>Pasteleria tasty</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="script" href="/service-worker.js">
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/MariaDelCarmenHernandezDiaz/Recursos-Test/main/Be%20Eco/Logo%20eco.ico">
+
+</head>
+
+<section class="hero is-medium is-link">
+  <div class="hero-body">
+
+    <p class="title" style="align-items: center; text-orientation: sideways-right;">
+      <span>TASTY</span>
+    </p>
+    <div class="container">
+
+      <!--div class="card">
+        <div class="card-header">
+          <img src="https://i.pinimg.com/736x/7b/68/2d/7b682ddd11feedd48288c69aa8494cc4.jpg" alt="rover" />
+        </div>
+        <div class="card-body">
+          <h2>
+            Pastel Chocolate
+          </h2>
+          <br>
+          <p>
+            El pastel de chocolate, es un postre conocido internacionalmente, que se popularizó a finales del siglo XIX...
+            
+            <button class="button is-light">Comprar</button>
+            <button class="button is-light is-link">Ver detalles</button>
+          </p>
+          
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <img src="https://i.pinimg.com/originals/f8/86/57/f886572ebae96dcc8d2ee0f3dba04654.jpg" alt="rover" />
+        </div>
+        <div class="card-body">
+          <h2>
+            Pastel rosa.
+          </h2>
+          <br>
+          <p>
+            La decoración es una mezcla peculiar con elementos modenosby minimalistas, pero con un toque tradicional, por aquello...
+            <button class="button is-light">Comprar</button>
+            <button class="button is-light is-link">Ver detalles</button>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <img src="https://i.pinimg.com/736x/cf/b8/a2/cfb8a2be02d9a829089a5b60ffd27b86.jpg" alt="rover" />
+        </div>
+        <div class="card-body">
+          <h2>
+            Pastel tradicional.
+          </h2>
+          <br>
+          <p>
+            La calidad de los ingredientes que ocupamos para preparar un pastel determina también la calidad...
+            <button class="button is-light">Comprar</button>
+            <button class="button is-light is-link">Ver detalles</button>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="card">
+        <div class="card-header">
+          <img src="https://i.pinimg.com/originals/24/d1/5f/24d15fc2edafcf1daa02ed02b44cc206.jpg" alt="rover" />
+        </div>
+        <div class="card-body">
+          <h2>
+            Pastel de Merengue.
+          </h2><br>
+          <p>
+            Los deliciosos pasteles de merengue se caracterizan por tener una...
+            <button class="button is-light">Comprar</button>
+            <button class="button is-light is-link">Ver detalles</button>
+          </p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <img src="https://thumbs.dreamstime.com/b/pastel-rosa-tierno-decorado-con-macarons-de-chocolate-blanco-fundido-merengues-pasteles-y-caramelos-fondo-plano-tarta-decorada-182804971.jpg" alt="rover" />
+        </div>
+        <div class="card-body">
+          <h2>
+            Pastel Angel.
+          </h2>
+          <br>
+          <p>
+            Consiguió su nombre gracias a que tiene una textura aireada y suave...
+            <button class="button is-light">Comprar</button>
+            <button class="button is-light is-link">Ver detalles</button>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <img src="https://i.pinimg.com/736x/75/af/49/75af49f20bf95a9f6ef6e959b07e8641.jpg" alt="rover" />
+        </div>
+        <div class="card-body">
+          <h2>
+            Pastel Malvado.
+          </h2>
+          <br>
+          <p>
+            Elegancia y el color rojizo que lo caracteriza, tiene un sabor inigualable...            
+            <button class="button is-light">Comprar</button>
+            <button class="button is-light is-link">Ver detalles</button>
+          </p>
+        </div>
+      </div>
+    </div-->
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('service-worker.js', {
+            scope: '/below/'
+          })
+          .then(registration => {
+            console.log('SW registered with scope:', registration.scope);
+          })
+          .catch(err => {
+            console.error('Registration failed:', err);
+          });
+        });
+      }
+      </script>
+</html>
+
